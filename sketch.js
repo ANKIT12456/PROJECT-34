@@ -17,12 +17,6 @@ createCanvas(1200,700);
   world=engine.world;
 
   ground=new GROUND(450,590,900,10);
-  block1=new BOX(700,200,50,50);
-  block2=new BOX(700,200,50,50);
-  block3=new BOX(700,200,50,50);
-  block4=new BOX(700,200,50,50);
-  block5=new BOX(700,200,50,50);
-  block6=new BOX(700,200,50,50);
   block7=new BOX(600,200,50,50);
   block8=new BOX(600,200,50,50);
   block9=new BOX(600,200,50,50);
@@ -48,12 +42,6 @@ function draw(){
   background(bg);
 
   ground.display();
-  block1.display();
-  block2.display();
-  block3.display();
-  block4.display();
-  block5.display();
-  block6.display();
   block7.display();
   block8.display();
   block9.display();
